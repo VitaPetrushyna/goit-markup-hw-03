@@ -21,10 +21,20 @@ body {
   font-size: 14px;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15;
 }
 /* Logo */
 .logo {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--accent-color);
 
   font-family: "Raleway", sans-serif;
@@ -34,12 +44,18 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .color-text {
   color: var(--title-text-color);
   font-family: "Raleway", sans-serif;
 }
 
 /* Site nav */
+
+.site-nav-li {
+  margin-top: 32px;
+  margin-bottom: 0;
+}
 .site-nav-link {
   color: var(--title-text-color);
 
@@ -71,9 +87,13 @@ body {
 
 /* Hero */
 .hero {
+  margin-top: 0;
   background-color: var(--title-text-color);
 }
 .hero-title {
+  margin-bottom: 30px;
+  margin-top: 0;
+
   color: var(--primary-bg-color);
 
   font-weight: 900;
@@ -85,6 +105,11 @@ body {
 }
 /* Button */
 .button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin-left: auto;
+  margin-right: auto;
+
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 
@@ -101,6 +126,9 @@ body {
 
 /* Title styling */
 .section-title {
+  margin-top: 94px;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -112,6 +140,9 @@ body {
 
 /* Skils */
 .skills .title {
+  margin-top: 94px;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -120,20 +151,42 @@ body {
 }
 
 .skills-text {
+  margin-top: 10px;
+  margin-bottom: 0;
+
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /* Images */
+.section-img {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
 
 /* Team */
 .section-iteam {
+  margin-top: 94px;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--team-bg-color);
 }
+.section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .team-item {
+  margin-top: 50px;
+  margin-bottom: 0px;
+
   background-color: var(--primary-bg-color);
 }
 .team .title {
+  margin-top: 30px;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -143,6 +196,9 @@ body {
 }
 
 .team-text {
+  margin-top: 10px;
+  margin-bottom: 30px;
+
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -150,6 +206,8 @@ body {
 
 /* Footer */
 .adress {
+  margin-top: 20px;
+  margin-bottom: 0;
   color: var(--primary-bg-color);
 
   line-height: 1.71;
@@ -164,6 +222,8 @@ body {
 }
 
 .contact-footer-list {
+  margin-top: 9px;
+  margin-bottom: 0;
   color: var(--contact-footer-color);
 
   line-height: 24px;
@@ -179,6 +239,8 @@ body {
 
 .section-footer {
   background-color: var(--footer-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .section-footer .colortext {
   color: var(--primary-bg-color);
@@ -187,6 +249,9 @@ body {
 /* Portfolio page */
 /* Project-filter */
 .buttons-btn {
+  border-radius: 4px;
+  padding: 6px 22px;
+
   font-family: "Roboto", sans-serif;
 }
 
