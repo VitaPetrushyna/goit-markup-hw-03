@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15;
 }
@@ -38,7 +38,7 @@ body {
   color: var(--accent-color);
 
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -87,7 +87,9 @@ body {
 
 /* Hero */
 .hero {
-  margin-top: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-top: 32px;
   background-color: var(--title-text-color);
 }
 .hero-title {
@@ -144,8 +146,9 @@ body {
   margin-bottom: 0;
 
   color: var(--title-text-color);
-
+  text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
@@ -226,7 +229,7 @@ body {
   margin-bottom: 0;
   color: var(--contact-footer-color);
 
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
@@ -249,10 +252,13 @@ body {
 /* Portfolio page */
 /* Project-filter */
 .buttons-btn {
+  margin-top: 132px;
+  margin-bottom: 0;
   border-radius: 4px;
   padding: 6px 22px;
 
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
 .buttons-btn:hover,
@@ -264,6 +270,8 @@ body {
 /* Projects section buttons-list li button */
 
 .projects-section-title {
+  margin-top: 20px;
+  margin-bottom: 0;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -273,6 +281,9 @@ body {
 }
 
 .projects-section-text {
+  margin-top: 4px;
+  margin-bottom: 50px;
+
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
