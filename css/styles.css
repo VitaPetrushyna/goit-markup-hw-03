@@ -31,6 +31,12 @@ body {
   margin: 0 auto;
   padding: 0 15;
 }
+
+/* Page header */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 /* Logo */
 .logo {
   margin-top: 0;
@@ -51,12 +57,23 @@ body {
 }
 
 /* Site nav */
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
 
 .site-nav-li {
-  margin-top: 32px;
+  margin-right: 50px;
   margin-bottom: 0;
 }
+.site-nav-li:last-child {
+  margin-right: 0;
+}
+
 .site-nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -72,6 +89,13 @@ body {
   color: var(--accent-color);
 }
 /* Contact nav */
+.contact-nav {
+  display: flex;
+  margin-left: auto;
+}
+.contact-nav-li + .contact-nav-li {
+  margin-left: 50px;
+}
 .contact-nav-link {
   color: var(--primary-text-color);
 
@@ -141,6 +165,15 @@ body {
 }
 
 /* Skils */
+.skills {
+  display: flex;
+}
+.skills-li {
+  width: 270px;
+}
+.skills-li + .skills-li {
+  margin-left: 30px;
+}
 .skills .title {
   margin-top: 94px;
   margin-bottom: 0;
@@ -162,12 +195,24 @@ body {
 }
 
 /* Images */
+.images {
+  display: flex;
+}
+.section-img + .section-img {
+  margin-left: 30px;
+}
 .section-img {
   margin-top: 50px;
   margin-bottom: 0;
 }
 
 /* Team */
+.team {
+  display: flex;
+}
+.team-item + .team-item {
+  margin-left: 30px;
+}
 .section-iteam {
   margin-top: 94px;
   margin-bottom: 0;
@@ -176,7 +221,7 @@ body {
   background-color: var(--team-bg-color);
 }
 .section-title {
-  margin-top: 0;
+  margin-top: 94px;
   margin-bottom: 0;
 }
 
