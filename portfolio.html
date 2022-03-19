@@ -19,11 +19,11 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <div class="container">
-      <header class="main-nav">
+    <header class="header">
+      <div class="container header-container">
         <a href="" class="logo">Web<span class="color-text">Studio</span></a>
         <!--<Блок навигации-->
-        <nav>
+        <nav class="nav">
           <ul class="site-nav list">
             <li class="site-nav-li">
               <a href="./index.html" class="site-nav-link">Студия</a>
@@ -51,13 +51,14 @@
             >
           </li>
         </ul>
-      </header>
-    </div>
+      </div>
+    </header>
     <!--Контент страницы-->
     <main>
       <!--Фильтр проектов-->
-      <div class="container">
-        <section class="buttons-section">
+
+      <section class="section buttons-section">
+        <div class="container">
           <h1 hidden="true">Фильтр проектов</h1>
           <ul class="buttons-list list">
             <li class="buttons-list-btn">
@@ -90,8 +91,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">Технокряк</h2>
-              <p class="projects-section-text">Веб-сайт</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">Технокряк</h2>
+                <p class="projects-section-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="projects-item">
               <img
@@ -100,10 +103,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">
-                Постер New Orlean vs Golden Star
-              </h2>
-              <p class="projects-section-text">Дизайн</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="projects-section-text">Дизайн</p>
+              </div>
             </li>
             <li class="projects-item">
               <img
@@ -112,8 +117,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">Ресторан Seafood</h2>
-              <p class="projects-section-text">Дизайн</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">Ресторан Seafood</h2>
+                <p class="projects-section-text">Дизайн</p>
+              </div>
             </li>
             <li class="projects-item">
               <img
@@ -122,8 +129,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">Проект Prime</h2>
-              <p class="projects-section-text">Маркетинг</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">Проект Prime</h2>
+                <p class="projects-section-text">Маркетинг</p>
+              </div>
             </li>
             <li class="projects-item">
               <img
@@ -132,8 +141,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">Проект Boxes</h2>
-              <p class="projects-section-text">Приложение</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">Проект Boxes</h2>
+                <p class="projects-section-text">Приложение</p>
+              </div>
             </li>
             <li class="projects-item">
               <img
@@ -142,8 +153,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">Inspiration has no Borders</h2>
-              <p class="projects-section-text">Веб-сайт</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">
+                  Inspiration has no Borders
+                </h2>
+                <p class="projects-section-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="projects-item">
               <img
@@ -152,8 +167,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">Издание Limited Edition</h2>
-              <p class="projects-section-text">Дизайн</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">Издание Limited Edition</h2>
+                <p class="projects-section-text">Дизайн</p>
+              </div>
             </li>
             <li class="projects-item">
               <img
@@ -162,8 +179,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">Проект LAB</h2>
-              <p class="projects-section-text">Маркетинг</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">Проект LAB</h2>
+                <p class="projects-section-text">Маркетинг</p>
+              </div>
             </li>
             <li class="projects-item">
               <img
@@ -172,41 +191,41 @@
                 width="370"
                 height="294"
               />
-              <h2 class="projects-section-title">Growing Business</h2>
-              <p class="projects-section-text">Приложение</p>
+              <div class="projects-title-text">
+                <h2 class="projects-section-title">Growing Business</h2>
+                <p class="projects-section-text">Приложение</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <div class="section-footer">
-        <div class="container">
-          <a href="" class="logo">Web<span class="colortext">Studio</span></a>
-          <address>
-            <ul class="contact-footer list">
-              <li>
-                <a
-                  href="https://goo.gl/maps/7qp37BieYdtHUAUU6"
-                  target="_blank"
-                  class="adress"
-                  >г. Киев, пр-т Леси Украинки, 26
-                </a>
-              </li>
-              <li>
-                <a href="mailto:info@devstudio.com" class="contact-footer-list"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a href="tel:+380961111111" class="contact-footer-list"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+    <footer class="footer">
+      <div class="container">
+        <a href="" class="logo">Web<span class="colortext">Studio</span></a>
+        <address>
+          <ul class="contact-footer list">
+            <li class="contact-footer-li">
+              <a
+                href="https://goo.gl/maps/7qp37BieYdtHUAUU6"
+                target="_blank"
+                class="adress"
+                >г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li class="contact-footer-li">
+              <a href="mailto:info@devstudio.com" class="contact-footer-list"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-footer-li">
+              <a href="tel:+380961111111" class="contact-footer-list"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
